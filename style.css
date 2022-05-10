@@ -1,17 +1,24 @@
 body {
     margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    font-size: 34px;
+    font-weight: bold;
+    text-align: center;
 }
 
 .container {
     width: 944px;
     margin: auto;
+    box-sizing: border-box;
 }
 
 
 .h3_div {
     display: flex;
 
-    font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     line-height: 22px;
 
@@ -35,7 +42,6 @@ body {
 
 
 .content1 h1 {
-    font-family: 'Montserrat', sans-serif;
     font-size: 47.3392px;
     line-height: 59px;
 }
@@ -100,58 +106,51 @@ body {
 }
 
 
-
-.content2{
+.content2 {
     display: flex;
     margin-top: 105px;
     background: #F6F6F6;
     width: 100%;
-    height: 506px;
+    /*height: 506px;*/
 
     align-items: center;
-    justify-content: center;
+    /*justify-content: center;*/
     flex-direction: column;
+    padding-top: 120px;
+    padding-bottom: 107px;
 }
 
-.content2 h1{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    font-size: 34px;
-}
-.p-class{
+.p-class {
     display: flex;
     gap: 22px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    text-align: center;
 }
-.p-class p{
+
+.p-class p {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 18px;
 }
 
 
-.content3{
+.content3 {
     width: 100%;
     height: 610px;
-    
+
     display: flex;
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    font-family: 'Montserrat', sans-serif;
 }
 
-.prog-cards p{
-    font-family: 'Gilroy-Bold';
+.prog-cards p {
     font-weight: 400;
     font-size: 14px;
     color: #828282;
 }
-
-
-
 
 
 @media screen and (max-width: 1200px) {
@@ -184,7 +183,7 @@ body {
     left: 0;
 
     width: 100%;
-    height: 812px;
+    height: 100vh;
     background: white;
     padding: 66px 26px 0;
     justify-content: space-between;
@@ -254,8 +253,6 @@ body {
     margin: 0;
     color: black;
 }
-
-
 
 
 @media screen and (max-width: 600px) {
