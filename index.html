@@ -12,48 +12,102 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <script src="js_html_.js"></script>
 <body>
-<div class="container">
-    <header>
-        <div class="h3_div">
-            <h3>Home</h3>
-            <h3>About me</h3>
-            <h3>Skills</h3>
-            <h3>Portfollio</h3>
-            <h3>Contacts</h3>
+    <div class="container">
+        <header>
+            <div class="h3_div">
+                <h3>Home</h3>
+                <h3>About me</h3>
+                <h3>Skills</h3>
+                <h3>Portfollio</h3>
+                <h3>Contacts</h3>
+            </div>
+            <img src="images/Group 3.svg" alt="" id="group"  onclick="menu_1()">
+            <div class="line"></div>
+        </header>
+        <div class="content1">
+            <div class="content_in1">
+                <h1>Denis
+                    <br> Novik</h1>
+                <p>UX | UI designer
+                    <br> 24 years old, Minsk</p>
+                <div class="languages">
+                    <a href="#">RU</a>
+                    <h3>|</h3>
+                    <a href="#" id="eng">ENG</a>
+                </div>
+
+            </div>
+            <div class="picture"></div>
         </div>
-        <img src="images/Group 3.svg" alt="" id="group">
-        <div class="line"></div>
-    </header>
-    <div class="content1">
-        <div class="content_in1">
-            <h1>Denis
-                <br> Novik</h1>
-            <p>UX | UI designer
-                <br> 24 years old, Minsk</p>
-            <div class="languages">
+
+        <div id="menu_window">
+            <div class="links">
+                <h1>Home</h1>
+                <h1>About me</h1>
+                <h1>Skills</h1>
+                <h1>Portfollio</h1>
+                <h1>Contacts</h1>
+            </div>
+            <div class="languages_mob">
                 <a href="#">RU</a>
                 <h3>|</h3>
                 <a href="#" id="eng">ENG</a>
             </div>
-
+            <img src="images/Group.svg" alt="" id="close_image" onclick="close_func()">
         </div>
-        <div class="picture" onclick="menu_1()"></div>
+    </div>
+    <div class="content2">
+        <h1>About me</h1>
+        <div class="p-class">
+            <p>Hi, I'm Denis – UX/UI designer from Minsk. <br> I'm interested in design and everything connected with it.</p>
+            <p>I'm studying at courses "Web and mobile design <br> interfaces" in IT-Academy.</p>
+            <p>Ready to implement excellent projects <br> with wonderful people.</p>
+        </div>
     </div>
 
-    <div id="menu_window">
+    <div class="content3">
+        <h1>Skills</h1>
+        <p>I work in such programs as</p>
 
-        <div class="links">
-            <h1>Home</h1>
-            <h1>About me</h1>
-            <h1>Skills</h1>
-            <h1>Portfollio</h1>
-            <h1>Contacts</h1>
+        <div class="prog-cards">
+            <div class="psd-card">
+                <img src="" alt="">
+                <p>Adobe <br> Photoshop</p>
+                <img src="images/Star.svg" alt="">
+                <img src="images/Star.svg" alt="">
+                <img src="images/Star.svg" alt="">
+                <img src="images/Star.svg" alt="">
+                <img src="images/Star_w.svg" alt="">
+            </div>
+            <div class="ai-card">
+                <img src="" alt="">
+                <p>Adobe <br> Illustrator</p>
+                <img src="images/Star.svg" alt="">
+                <img src="images/Star.svg" alt="">
+                <img src="images/Star.svg" alt="">
+                <img src="images/Star.svg" alt="">
+                <img src="images/Star_w.svg" alt="">
+            </div>
+            <div class="ae-card">
+                <img src="" alt="">
+                <p>Adobe <br> After Effects</p>
+                <img src="images/Star.svg" alt="">
+                <img src="images/Star.svg" alt="">
+                <img src="images/Star.svg" alt="">
+                <img src="images/Star.svg" alt="">
+                <img src="images/Star_w.svg" alt="">
+            </div>
+            <div class="fgm-card">
+                <img src="" alt="">
+                <p>Figma</p>
+                <img src="images/Star.svg" alt="">
+                <img src="images/Star.svg" alt="">
+                <img src="images/Star.svg" alt="">
+                <img src="images/Star.svg" alt="">
+                <img src="images/Star_w.svg" alt="">
+            </div>
         </div>
-        <img src="images/Group.svg" alt="">
-
     </div>
-
-
 </div>
 </body>
 
